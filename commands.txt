@@ -1,0 +1,9 @@
+Pimp my Kali
+-------------
+https://github.com/Dewalt-arch/pimpmykali
+
+
+Commands
+--------
+
+whatweb - get tech stack of any website
