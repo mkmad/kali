@@ -41,17 +41,36 @@ e.g.
  192.168.1.166   e4:23:54:1c:44:77      1      42  SHENZHEN FUZHI SOFTWARE TECHNOLOGY CO.,LTD
  192.168.1.155   ac:89:95:8f:51:e9      1      42  AzureWave Technology Inc.
 ```
+---
 
+**NMAP** - Network mapper tool, for a given machine ip, we can use nmap to scan all the open ports and services in that machine.
 
-
-**NMAP** - Network map tool, 
-
-usage: `nmap `
+usage: `nmap -T4 -p- -A <ip_address>`
+* T is the speed of the scan, the scan speeds are from 1 (slowest + through) to 5 (fast + not through) 
+* p is the port number, `-` means everyting
+* A means show all info
 
 e.g.
 ```
-```
+# nmap -T4 -p 80 -A 192.168.1.160
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-08 05:30 UTC
+Nmap scan report for Samsung.lan (192.168.1.160)
+Host is up (0.0071s latency).
 
+PORT   STATE  SERVICE VERSION
+80/tcp closed http
+MAC Address: F4:FE:FB:C3:55:0F (Samsung Electronics)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   7.12 ms Samsung.lan (192.168.1.160)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 3.81 seconds
+```
+---
 
 **** - 
 
@@ -60,3 +79,4 @@ usage: ` `
 e.g.
 ```
 ```
+---
