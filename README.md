@@ -1,7 +1,35 @@
+# Topics to learn
+
+* [Subnets](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/)
+* [Network Layer](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/)
+
+# Pimping Kali
+
+* [Pimp my Kali](https://github.com/Dewalt-arch/pimpmykali)
+
+# Sysadmin Commands/Concepts
+
+1. passwd file (/etc/passwd) - This file shows all the users in the system, their grp etc
+2. shadow file (/etc/shadow) - Stores the password hash
+
+
 # kali Commands 
 
-[Pimp my Kali](https://github.com/Dewalt-arch/pimpmykali)
+**NETSTAT** - netstat provides statistics about all active connections so you can find out which computers or networks a PC is connected to.
 
+usage: `netstat -ano`
+
+e.g.
+```
+projects » netstat -ano | grep "tcp"                                                      
+tcp4       0      0  192.168.2.11.57961     170.114.52.10.443      ESTABLISHED
+tcp4       0      0  192.168.2.11.57960     170.114.52.10.443      ESTABLISHED
+tcp4       0      0  127.0.0.1.63712        127.0.0.1.57949        ESTABLISHED
+tcp4       0      0  127.0.0.1.57949        127.0.0.1.63712        ESTABLISHED
+tcp4       0      0  127.0.0.1.49319        127.0.0.1.57948        ESTABLISHED
+tcp4       0      0  127.0.0.1.57948        127.0.0.1.49319        ESTABLISHED
+
+```
 ---
 
 **ARP SCAN** - scans the network that the device is connected for devices, the output lists device ip addresses, MAC addresses and Device Description.
