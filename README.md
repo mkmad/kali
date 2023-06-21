@@ -3,15 +3,19 @@
 * [Subnets](https://www.cloudflare.com/learning/network-layer/what-is-a-subnet/)
 * [Network Layer](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/)
 
-# Pimping Kali
-
-* [Pimp my Kali](https://github.com/Dewalt-arch/pimpmykali)
 
 # Sysadmin Commands/Concepts
 
-1. passwd file (/etc/passwd) - This file shows all the users in the system, their grp etc
-2. shadow file (/etc/shadow) - Stores the password hash
+* passwd file (/etc/passwd) - This file shows all the users in the system, their grp etc
+* shadow file (/etc/shadow) - Stores the password hash
 
+# Tools
+
+* [Pimp my Kali](https://github.com/Dewalt-arch/pimpmykali)
+* [Dehashed - Password Leaks DB](https://www.dehashed.com/)
+* [Subdomains Hunter - To view all domains for weakness](https://crt.sh/)
+* [Website Tech Stack Viewer - Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg/related?hl=en-US)
+* 
 
 # kali Commands 
 
