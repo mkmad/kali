@@ -8,6 +8,7 @@
 
 * passwd file (/etc/passwd) - This file shows all the users in the system, their grp etc
 * shadow file (/etc/shadow) - Stores the password hash
+* wait for a tcp port to become available - [wait-for-it](https://github.com/vishnubob/wait-for-it)
 
 # Tools
 
